@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="cars.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <nav>
+        <img src="img/car-logo.png" class="logo">
+        <div class="menu">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">features</a>
+            <a href="#">variations</a>
+            <a href="#">specials</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        
+    </nav>
+</header>
+<div class="hero" id="HERO">
+<div class="text">
+<h2>powerful,fun and</h2>
+<h1>fierce to <br><span>drive</span></h1>
+<p>real poise,real power,real performance</p>
+<a href="#"><button>book a test ride</button></a>
+
+</div>
+
+</div>
+<!--document.getElementById("HERO").style.backgroundImage="url(img/bg-light.jpg)" ;-->
+<script>
+
+setInterval(() => {
+    setTimeout(()=>{
+        document.getElementById("HERO").style.backgroundImage="url(img/bg.jpg)"
+    },1000)
+    document.getElementById("HERO").style.backgroundImage="url(img/bg-light.jpg)"
+},2000);
+
+</script>
+
+</body>
+</html>
